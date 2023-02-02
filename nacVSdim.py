@@ -24,7 +24,7 @@ mean_ov_pot_ANplayers = atlNacional[["overall", "potential"]].describe()
 print(round(mean_ov_pot_ANplayers,2))
 
 print("\n")
-print("Tabla de edad, talla y peso:")
+print("Tabla de edad, estatura y peso:")
 means_atlN = atlNacional[["age","height_cm","weight_kg"]].describe()
 print(round(means_atlN,2))
 
@@ -77,7 +77,7 @@ ov_pot_dim = dim[["overall", "potential"]].describe()
 print(round(ov_pot_dim,2))
 
 print("\n")
-print("Tabla de edad, talla y peso:")
+print("Tabla de edad, estatura y peso:")
 means_dim = dim[["age","height_cm","weight_kg"]].describe()
 print(round(means_dim,2))
 
